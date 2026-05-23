@@ -1,3 +1,4 @@
+
 # Local Freelance Job Board Frontend
 
 ![React](https://img.shields.io/badge/React-18-blue)
@@ -123,7 +124,7 @@ Local Freelance Job Board creates a direct connection between students and busin
 
 # Architecture
 
-
+```text
 Frontend (React + Vite)
         │
         │ Axios API Requests
@@ -132,11 +133,13 @@ Backend API (Express.js)
         │
         ▼
 MongoDB Database
+````
 
 ---
 
 # User Flow
 
+```text
 Authentication
     ├── Login
     └── Register
@@ -150,10 +153,13 @@ Business Workflow
     ├── Post Gig
     ├── Review Applications
     └── Hire Candidate
+```
 
+---
 
 # Folder Structure
 
+```bash
 frontend/
 │
 ├── public/
@@ -185,7 +191,9 @@ frontend/
 ├── eslint.config.js
 ├── vercel.json
 └── README.md
+```
 
+---
 
 # Getting Started
 
@@ -292,7 +300,7 @@ npm run preview
 
 Frontend Deployment:
 
-[https://local-freelance-job-board.vercel.app](https://local-freelance-job-board.vercel.app)
+[https://local-freelance-frontend.vercel.app](https://local-freelance-frontend.vercel.app/)
 
 Backend API:
 
@@ -423,4 +431,5 @@ This frontend project follows modular React architecture principles with reusabl
 
 ```
 ```
+
 
